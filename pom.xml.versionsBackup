@@ -50,7 +50,7 @@
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>7.15.0</version> <!-- Versão atualizada -->
+			<version>6.10.2</version> <!-- Versão atualizada -->
 			<scope>test</scope>
 		</dependency>
 
@@ -84,7 +84,7 @@
 		<dependency>
 			<groupId>net.bytebuddy</groupId>
 			<artifactId>byte-buddy-agent</artifactId>
-			<version>1.14.11</version>
+			<version>1.14.10</version>
 			<scope>runtime</scope>
 			<exclusions>
 				<exclusion>
@@ -98,7 +98,7 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
-			<version>5.10.2</version>
+			<version>RELEASE</version>
 			<scope>test</scope>
 		</dependency>
 
