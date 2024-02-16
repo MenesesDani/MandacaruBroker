@@ -1,3 +1,7 @@
+Claro! Aqui está a documentação atualizada com as melhorias feitas:
+
+---
+
 # MandaCaru Broker API
 
 ## Descrição
@@ -8,66 +12,63 @@ A Mandacaru Broker API é uma aplicação Spring Boot que fornece operações CR
 ### Listar Todas as Ações
 Retorna uma lista de todas as ações disponíveis.
 
-**Endpoint:**
-```http
+#### Endpoint:
+```
 GET /stocks
 ```
 
 ### Obter uma Ação por ID
-
 Retorna os detalhes de uma ação específica com base no ID.
 
-**Endpoint:**
-```http
+#### Endpoint:
+```
 GET /stocks/{id}
 ```
 
 ### Criar uma Nova Ação
 Cria uma nova ação com base nos dados fornecidos.
 
-**Endpoint:**
-```http
+#### Endpoint:
+```
 POST /stocks
 ```
-**Corpo da Solicitação (Request Body):**
 
-```JSON
+#### Corpo da Solicitação (Request Body):
+```json
 {
   "symbol": "BBAS3",
   "companyName": "Banco do Brasil SA",
   "price": 56.97
 }
-
 ```
+
 ### Atualizar uma Ação por ID
 Atualiza os detalhes de uma ação específica com base no ID.
 
-**Endpoint:**
-```http
+#### Endpoint:
+```
 PUT /stocks/{id}
 ```
-**Corpo da Solicitação (Request Body):**
 
-```JSON
+#### Corpo da Solicitação (Request Body):
+```json
 {
   "symbol": "BBAS3",
   "companyName": "Banco do Brasil SA",
   "price": 59.97
 }
-
 ```
 
 ### Excluir uma Ação por ID
 Exclui uma ação específica com base no ID.
 
-**Endpoint:**
-```http
+#### Endpoint:
+```
 DELETE /stocks/{id}
 ```
 
-
 ## Uso
-1. Clone o repositório: `git clone https://github.com/seu-usuario/MandaCaruBrokerAPI.git`
+1. Clone o repositório: `https://github.com/MenesesDani/MandacaruBroker.git`
 2. Importe o projeto em sua IDE preferida.
 3. Configure o banco de dados e as propriedades de aplicação conforme necessário.
 4. Execute o aplicativo Spring Boot.
@@ -88,5 +89,4 @@ DELETE /stocks/{id}
 Contribuições são bem-vindas!
 
 ## Licença
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
+Este projeto está licenciado sob a Licença MIT.
