@@ -66,9 +66,20 @@ DELETE /stocks/{id}
 ## Uso
 1. Clone o repositório: `https://github.com/MenesesDani/MandacaruBroker.git`
 2. Importe o projeto em sua IDE preferida.
-3. Configure o banco de dados e as propriedades de aplicação conforme necessário.
+3. Configure o banco de dados:
+   
+   - **PostgreSQL:**
+     - Instale o PostgreSQL.
+     - Crie um banco de dados com o nome `mandacarubroker`.
+     - Atualize as configurações de banco de dados no arquivo `application.properties`.
+
+   - **SqlServer:**
+     - Instale o SqlServer.
+     - Crie um banco de dados com o nome `mandacarubroker`.
+     - Atualize as configurações de banco de dados no arquivo `application.properties`.
+
 4. Execute o aplicativo Spring Boot.
-5. Acesse a API em `http://localhost:8080`.
+5. Acesse a API em `http://localhost:8080`
 
 ## Requisitos
 - Java 11 ou superior
