@@ -1,7 +1,3 @@
-Claro! Aqui está a documentação atualizada com as melhorias feitas:
-
----
-
 # MandaCaru Broker API
 
 ## Descrição
