@@ -87,10 +87,14 @@ DELETE /stocks/{id}
 - Banco de dados
 
 ## Tecnologias Utilizadas
-- Spring Boot
-- Spring Data JPA
-- Maven
-- PostgreSQL
+- [Spring Boot](https://spring.io/projects/spring-boot): Framework para criação de aplicativos Java.
+- [Spring Data JPA](https://spring.io/projects/spring-data-jpa): Facilita a implementação de repositórios baseados em JPA.
+- [Maven](https://maven.apache.org/): Ferramenta de gerenciamento de dependências e construção de projetos.
+- [PostgreSQL](https://www.postgresql.org/): Sistema de gerenciamento de banco de dados relacional de código aberto.
+- [SqlServer](https://www.microsoft.com/pt-br/sql-server): Sistema de gerenciamento de banco de dados relacional da Microsoft.
+- [CheckStyle](https://checkstyle.org/): Ferramenta de análise estática de código para verificar se o código Java adere a um conjunto de regras de estilo.
+- [SonarCube](https://www.sonarqube.org/): Plataforma de código aberto para inspeção contínua da qualidade do código.
+- [SonarLint](https://www.sonarlint.org/): Ferramenta de análise de código para IDEs que fornece feedback em tempo real sobre problemas de qualidade do código.
 
 ## Contribuições
 Contribuições são bem-vindas!
